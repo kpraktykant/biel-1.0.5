@@ -1,6 +1,6 @@
 body
 {
-    background-color: #f0dedd;
+    background-image: url("img/tlo.png");
     color: #010101;
     font-family: "Rubik", sans-serif;
 }
@@ -116,4 +116,10 @@ h1.logo
 border-top: 3px solid black;
 border-bottom: 3px solid black;
 width: 183px;
+}
+
+.akt-img
+{
+    text-align: center;
+    margin-right: 10px;
 }
