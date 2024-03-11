@@ -15,13 +15,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <script src="timer.js"></script>
-
+    <script src="jquery.scrollTo-master/jquery.scrollTo.min.js"></script>
     <script>
         jQuery(function($)
         {
             $.scrollTo(0);
     
-            $('#').click(function() { $.scrollTo($('#'), 500); });
+            $('#link2').click(function() { $.scrollTo($('#akt'), 500); });
             $('.scrollup').click(function() { $.scrollTo($('body'), 700); });
         }
         );	
@@ -42,7 +42,7 @@
         <nav id="topnav">
             <ul class="menu">
                 <li><a href="#">Strona Główna</a></li>
-                <li><a href="#">Postanowienia</a></li>
+                <li><a href="#akt">Aktualności</a></li>
                 <li><a href="#">Terminy Spotkań</a></li>
                 <li><a href="#">Kontakt</a></li>
             </ul>
@@ -53,6 +53,30 @@
     
     <article>
         <section class="powitanie">Witaj na stronie Wspólnoty!</section>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <section class="akt"><h2 id="akt">Aktualności we wspólnocie</h2>
+            <p class="data">11.03.2024 | 13:30</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat pulvinar dapibus. Curabitur vel ipsum a ipsum pulvinar porta non quis nunc. Pellentesque et congue nisl. Cras nec enim eu urna maximus faucibus id a dui. Maecenas blandit auctor nulla vitae aliquet. Quisque vel odio pharetra, auctor erat at, malesuada risus. Duis et posuere urna, ut varius velit. Donec id fringilla quam. Etiam porttitor fringilla nisi, at ornare nisi molestie a.</p>
+            <img src="img/przyk.jpg">
+            
+        </section>
     </article>
 
     <main>
