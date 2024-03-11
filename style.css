@@ -46,10 +46,21 @@ body
     color: #484444;
 }
 
+#zegar
+{
+    text-shadow: 1px 0px 1px 0px lightgray;
+    font-size: 29px;
+    border-top: 2px dashed black;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1.logo
 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 7px;
 }
