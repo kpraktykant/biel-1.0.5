@@ -21,20 +21,7 @@
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     <script>
-        jQuery(function($)
-        {
-            $.scrollTo(0);
-    
-            $('#link2').click(function() { $.scrollTo($('#akt'), 500); });
-            $('.scrollup').click(function() { $.scrollTo($('body'), 700); });
-        }
-        );	
-        $(window).scroll(function()
-        {
-            if ($(this).scrollTop()>300) $('.scrollup').fadeIn(); 
-            else $('.scrollup').fadeOut();	
-        }
-        );
+
         
     </script>
 </head>
@@ -58,11 +45,25 @@
             <h1 class="logo">Mała Wspólnota Mieszkaniowa w Bielczynach</h1>
         </header>
 
+        <section class="powitanie">
+            <p><i class="icon-down"></i>Ciekawostki<i class="icon-down"></i></p>
+        </section>
+        
+
+
         <article>
-            <section class="powitanie">Witaj na stronie Wspólnoty!
-                <br/>
-                <br/>
-                <p>Na tej stronie możesz być na bieżąco ze zmianami we wspólnocie, ZDALNIE.</p>
+            <section class="ciekawostkih">
+                <h4>PRZYKŁADOWY TEMAT</h4>
+            </section>
+            
+            <section class="ciekawostki">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in elit vel felis iaculis congue. Nullam mollis maximus sapien, eget varius neque finibus a. Fusce laoreet dui vel sem bibendum, a tincidunt sem malesuada. Suspendisse sodales et turpis vel tincidunt. In hac habitasse platea dictumst. Mauris iaculis congue orci, quis luctus ante vestibulum eget. Cras euismod felis in lectus dictum, quis iaculis quam suscipit. Nam sollicitudin non turpis tempus tempus.</p>
+            </section>
+        </article>
+
+
+
+
 </main>
 
 <footer>
