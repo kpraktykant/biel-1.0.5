@@ -67,13 +67,12 @@ a:visited
 
 #zegar
 {
-    width: 240px;
+    width: 200px;
     background-image: url("img/tlo.png");
     text-decoration: underline;
     font-size: 29px;
     background-color: #efefef;
     text-align: right;
-    margin-right: 30;
     margin-top: 7px;
     float: left;
 }
@@ -82,7 +81,7 @@ h1.logo
 {
     float: left;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 110px;
     margin-right: auto;
     margin-top: 7px;
 }
@@ -201,10 +200,49 @@ width: 273px;
     text-align: left;
 }
 
+
 h1.infospotk
 {
     text-align: center;
     margin-left: 50px;
     margin-right: auto;
     margin-top: 7px;
+}
+
+.zdjecia
+{
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-right: 40px;
+    float: left;
+}
+
+.zdj1
+{
+    margin-left: 28px;
+}
+.zdj2
+{
+    margin-left: 28px;
+}
+.zdj3
+{
+    margin-left: 28px;
+}
+.zdj4
+{
+    margin-left: 28px;
+}
+
+.zmianyreg
+{
+    margin-left: 25px;
+}
+
+.listazmianyreg
+{
+    list-style-type: none;
+    margin-left: 15px;
 }
