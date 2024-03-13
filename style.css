@@ -19,7 +19,7 @@ a:visited
 
 #topnav
 {
-    background-color: gray;
+    background-color: #8d9196;
     text-align: center;
     width: 100%;
 }
@@ -230,4 +230,29 @@ h1.infospotk
 {
     font-size: 18px;
     list-style-type: none;
+}
+
+.sglownadiv:hover
+{
+    background-color: #9ea2a6;
+}
+
+.aktualnoscidiv:hover
+{
+    background-color: #9ea2a6;
+}
+
+.terspotkandiv:hover
+{
+    background-color: #9ea2a6;
+}
+
+.ciekawostkidiv:hover
+{
+    background-color: #9ea2a6;
+}
+
+.galeriadiv:hover
+{
+    background-color: #9ea2a6;
 }
