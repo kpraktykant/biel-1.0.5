@@ -207,27 +207,64 @@ h1.infospotk
     list-style-type: none;
 }
 
+.sglownadiv
+{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.aktualnoscidiv
+{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.terspotkandiv
+{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.ciekawostkidiv
+{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.galeriadiv
+{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+
+
 .sglownadiv:hover
 {
+    opacity: 1;
     background-color: #9ea2a6;
 }
 
 .aktualnoscidiv:hover
 {
+    opacity: 1;
     background-color: #9ea2a6;
 }
 
 .terspotkandiv:hover
 {
+    opacity: 1;
     background-color: #9ea2a6;
 }
 
 .ciekawostkidiv:hover
 {
+    opacity: 1;
     background-color: #9ea2a6;
 }
 
 .galeriadiv:hover
 {
+    opacity: 1;
     background-color: #9ea2a6;
 }
